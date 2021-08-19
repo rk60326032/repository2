@@ -12,7 +12,7 @@ public class Demo {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\RK\\Downloads\\chromedriver_win32 _1\\chromedriver.exe");
 		WebDriver driver =new ChromeDriver();
 		driver.manage().window().maximize();
-		((SafariDriver) driver.switchTo()).newWindow(WindowType.TAB);
+		//((SafariDriver) driver.switchTo()).newWindow(WindowType.TAB);
 		
 		driver.get("https://google.com");
       System.out.println(driver.getTitle());
